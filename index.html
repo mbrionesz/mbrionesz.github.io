@@ -6,17 +6,23 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
+    <script src="https://kit.fontawesome.com/ac0029c0bd.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
     <title>CV Matías Briones</title>
 </head>
 <body>
-    <div class="container col-6 sm md bg-light px-3">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light pt-3">
+    <div class="container col-8 sm md bg-light px-3">
+        <header>
+          <nav class="navbar navbar-expand-lg navbar-light bg-light pt-3">
+            <div class="container-fluid">
             <a class="navbar-brand" href="#">Curriculum Vitae</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler custom-fix" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav d-flex ms-auto">
+              <ul class="navbar-nav ms-auto pe-3">
                 <li class="nav-item active">
                   <a class="nav-link" href="./index.html">Inicio</a>
                 </li>
@@ -31,7 +37,9 @@
                 </li>
               </ul>
             </div>
+            </div>
           </nav>
+        </header>
     <div class="container d-flex justify-content-center pt-3">
     <img src="./assets/imagenes/mbriones.jpg" alt="Foto de Matías Briones" width="250">
     </div>
@@ -39,12 +47,12 @@
     <div class="container text-center pb-3">
     <h1>Matías Briones</h1>
     </div>
-    <h3>Resumen</h3>
+    <h3>Resumen <i class="fa-regular fa-pen-to-square" style="color: #1f5151;"></i></h3>
     <p>Profesional en Ingeniería de Redes y Comunicaciones. Cuenta con experiencia en Soporte TI y
         Administración de Redes y Comunicaciones. De pensamiento crítico y siempre orientado a los
         objetivos y resultados de la empresa. </p>
 
-    <h3>Datos Personales</h3>
+    <h3>Datos Personales <i class="fa-regular fa-address-book" style="color: #511f1f;"></i></h3>
     <ul>
         <li>Nombre: Matías Alejandro Briones Zamorano</li>
         <li>Fecha de nacimiento: 11 de abril de 1995</li>
@@ -52,22 +60,25 @@
         <li>Comuna: La Florida</li>
     </ul>
 
-    <h3 id="educacion">Formación</h3>
+    <h3 id="educacion">Formación <i class="fa-solid fa-school" style="color: #514e1f;"></i></i></h3>
     <ul>
         <li>Ing. Telecomunicaciones, Conectividad y Redes | 2014 - 2019 INACAP</li>
         
     </ul>
 
-    <h3 id="experiencia">Experiencia Laboral</h3>
+    <h3 id="experiencia">Experiencia Laboral <i class="fa-solid fa-briefcase" style="color: #27511f;"></i></i></h3>
     <ul>
         <li>Practicante Profesional | Oct 2020 - Ene 2021 | Ingrad Informática Médica</li>
         <li>Ingeniero de Soporte TI | Oct 2021 - Al presente | Ifoco Consultores</li>
     </ul>
 
     <!--Curriculum Matías Briones-->
-    <div class="container">
+    <div class="container-fluid bg-dark d-flex justify-content-center pt-2">
         <footer>
-            Footer...
+          <div>
+            <i class="fa-regular fa-copyright text-white"></i> 
+            <span class="text-white">2023 Matías Briones. Todos los derechos reservados.</span>
+          </div>
         </footer>
     </div>
 </div>
